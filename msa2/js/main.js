@@ -8,7 +8,8 @@ function clicked(){
 
     if(user.value == coruser){
         if(pass.value == corpass){
-            window.alert("You are logged in as" + user.value);
+            window.alert("Welcome to Nesian Mix" + user.value);
+            window.open("http://google.com");
         }else {
             window.alert("Incorrect username or password!");
         }
