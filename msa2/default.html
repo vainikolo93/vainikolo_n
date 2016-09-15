@@ -1,15 +1,25 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Login</title>
-            <!--Boostrap's CSS-->
-            <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-            <!--Custom CSS-->
-            <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <h1><span>Nesian Mix</h1>
-    </head>
-    <body>
-        
-        <script type="text/JavaScript" src="./js/main.js"></script>
-    </body>
+<head>
+<title>Facebook Login JavaScript Example</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<script>
+<script src="./js/main.js"></script>
+</script>
+
+<!--
+  Below we include the Login Button social plugin. This button uses
+  the JavaScript SDK to present a graphical Login button that triggers
+  the FB.login() function when clicked.
+-->
+
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+
+<div id="status">
+</div>
+
+</body>
 </html>

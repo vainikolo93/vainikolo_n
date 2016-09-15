@@ -1,0 +1,261 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'browser-sync' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'browser-sync', null ]
+7 verbose cache add spec browser-sync
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'browser-sync',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'browser-sync',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed browser-sync@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for browser-sync
+11 info addNameTag [ 'browser-sync', 'latest' ]
+12 silly mapToRegistry name browser-sync
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'browser-sync',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'browser-sync',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+17 verbose addNameTag registry:https://registry.npmjs.org/browser-sync not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/browser-sync
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 8:38:20 PM
+21 verbose request id 8e99b3cabae7012b
+22 verbose etag "87W6DJ7FZD0U7OJ18IB0A6355"
+23 http request GET https://registry.npmjs.org/browser-sync
+24 http 200 https://registry.npmjs.org/browser-sync
+25 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 verbose headers   etag: '"AWZX72J53TY7JEXMGVDMG3DY3"',
+25 verbose headers   'content-type': 'application/json',
+25 verbose headers   'content-encoding': 'gzip',
+25 verbose headers   'cache-control': 'max-age=300',
+25 verbose headers   'content-length': '41225',
+25 verbose headers   'accept-ranges': 'bytes',
+25 verbose headers   date: 'Thu, 15 Sep 2016 08:38:20 GMT',
+25 verbose headers   via: '1.1 varnish',
+25 verbose headers   age: '0',
+25 verbose headers   connection: 'keep-alive',
+25 verbose headers   'x-served-by': 'cache-akl6421-AKL',
+25 verbose headers   'x-cache': 'HIT',
+25 verbose headers   'x-cache-hits': '1',
+25 verbose headers   'x-timer': 'S1473928700.520228,VS0,VE207',
+25 verbose headers   vary: 'Accept-Encoding' }
+26 silly get cb [ 200,
+26 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly get     etag: '"AWZX72J53TY7JEXMGVDMG3DY3"',
+26 silly get     'content-type': 'application/json',
+26 silly get     'content-encoding': 'gzip',
+26 silly get     'cache-control': 'max-age=300',
+26 silly get     'content-length': '41225',
+26 silly get     'accept-ranges': 'bytes',
+26 silly get     date: 'Thu, 15 Sep 2016 08:38:20 GMT',
+26 silly get     via: '1.1 varnish',
+26 silly get     age: '0',
+26 silly get     connection: 'keep-alive',
+26 silly get     'x-served-by': 'cache-akl6421-AKL',
+26 silly get     'x-cache': 'HIT',
+26 silly get     'x-cache-hits': '1',
+26 silly get     'x-timer': 'S1473928700.520228,VS0,VE207',
+26 silly get     vary: 'Accept-Encoding' } ]
+27 verbose get saving browser-sync to /Users/nancyavainikolo/.npm/registry.npmjs.org/browser-sync/.cache.json
+28 verbose correctMkdir /Users/nancyavainikolo/.npm correctMkdir not in flight; initializing
+29 silly addNameTag next cb for browser-sync with tag latest
+30 silly addNamed browser-sync@2.16.0
+31 verbose addNamed "2.16.0" is a plain semver version for browser-sync
+32 silly mapToRegistry name browser-sync
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'browser-sync',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'browser-sync',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+37 verbose addRemoteTarball https://registry.npmjs.org/browser-sync/-/browser-sync-2.16.0.tgz not in flight; adding
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/browser-sync/-/browser-sync-2.16.0.tgz',
+38 verbose addRemoteTarball   '973e129a5e02cbfdf4cb6bf8bf90b10d8abd34e5' ]
+39 info retry fetch attempt 1 at 8:38:20 PM
+40 info attempt registry request try #1 at 8:38:20 PM
+41 http fetch GET https://registry.npmjs.org/browser-sync/-/browser-sync-2.16.0.tgz
+42 http fetch 200 https://registry.npmjs.org/browser-sync/-/browser-sync-2.16.0.tgz
+43 silly fetchAndShaCheck shasum 973e129a5e02cbfdf4cb6bf8bf90b10d8abd34e5
+44 verbose addTmpTarball /var/folders/11/3m1yjs612c1685x1bysfzk_m0000gn/T/npm-15095-2390f554/registry.npmjs.org/browser-sync/-/browser-sync-2.16.0.tgz not in flight; adding
+45 verbose addTmpTarball already have metadata; skipping unpack for browser-sync@2.16.0
+46 verbose correctMkdir /Users/nancyavainikolo/.npm correctMkdir not in flight; initializing
+47 silly cache afterAdd browser-sync@2.16.0
+48 verbose afterAdd /Users/nancyavainikolo/.npm/browser-sync/2.16.0/package/package.json not in flight; writing
+49 verbose correctMkdir /Users/nancyavainikolo/.npm correctMkdir not in flight; initializing
+50 verbose afterAdd /Users/nancyavainikolo/.npm/browser-sync/2.16.0/package/package.json written
+51 silly install resolved [ { name: 'browser-sync',
+51 silly install resolved     description: 'Live CSS Reload & Browser Syncing',
+51 silly install resolved     version: '2.16.0',
+51 silly install resolved     homepage: 'http://www.browsersync.io/',
+51 silly install resolved     author: { name: 'Shane Osbourne' },
+51 silly install resolved     repository:
+51 silly install resolved      { type: 'git',
+51 silly install resolved        url: 'git+https://github.com/browsersync/browser-sync.git' },
+51 silly install resolved     license: 'Apache-2.0',
+51 silly install resolved     bin: { 'browser-sync': 'bin/browser-sync.js' },
+51 silly install resolved     files: [ 'bin', 'index.js', 'lib', 'lodash.custom.js' ],
+51 silly install resolved     engines: { node: '>= 0.8.0' },
+51 silly install resolved     scripts:
+51 silly install resolved      { env: 'node ./test/env.js',
+51 silly install resolved        test: 'npm run lint && npm run env && npm run unit',
+51 silly install resolved        lint: 'eslint index.js lib bin examples test/specs gulpfile.js',
+51 silly install resolved        pro: 'protractor test/protractor/config.single.js',
+51 silly install resolved        'pro-local': 'node test/protractor/setup.js',
+51 silly install resolved        unit: 'mocha --recursive test/specs --timeout 10000',
+51 silly install resolved        cover: 'npm run env && npm run cover-local && npm run coveralls',
+51 silly install resolved        'cover-local': 'istanbul cover -x lodash.custom.js _mocha -- --timeout 10000 --recursive ./test/specs',
+51 silly install resolved        coveralls: 'istanbul-coveralls',
+51 silly install resolved        'pre-release': 'npm test && npm run pro-local && npm run pro',
+51 silly install resolved        lodash: 'lodash include=isUndefined,isFunction,toArray,includes,union,each,isString,merge,isObject,set exports=node' },
+51 silly install resolved     dependencies:
+51 silly install resolved      { 'browser-sync-client': '^2.3.3',
+51 silly install resolved        'browser-sync-ui': '0.6.1',
+51 silly install resolved        'bs-recipes': '1.2.3',
+51 silly install resolved        chokidar: '1.6.0',
+51 silly install resolved        connect: '3.4.1',
+51 silly install resolved        'dev-ip': '^1.0.1',
+51 silly install resolved        'easy-extender': '2.3.2',
+51 silly install resolved        'eazy-logger': '3.0.2',
+51 silly install resolved        'emitter-steward': '^1.0.0',
+51 silly install resolved        'fs-extra': '0.30.0',
+51 silly install resolved        'http-proxy': '1.14.0',
+51 silly install resolved        immutable: '3.8.1',
+51 silly install resolved        localtunnel: '1.8.1',
+51 silly install resolved        micromatch: '2.3.11',
+51 silly install resolved        opn: '4.0.2',
+51 silly install resolved        portscanner: '^1.0.0',
+51 silly install resolved        qs: '6.2.1',
+51 silly install resolved        'resp-modifier': '6.0.2',
+51 silly install resolved        rx: '4.1.0',
+51 silly install resolved        'serve-index': '1.8.0',
+51 silly install resolved        'serve-static': '1.11.1',
+51 silly install resolved        'server-destroy': '1.0.1',
+51 silly install resolved        'socket.io': '1.4.8',
+51 silly install resolved        'ua-parser-js': '0.7.10',
+51 silly install resolved        yargs: '5.0.0' },
+51 silly install resolved     devDependencies:
+51 silly install resolved      { 'browser-sync-spa': '1.0.3',
+51 silly install resolved        'bs-html-injector': '3.0.2',
+51 silly install resolved        'bs-latency': '1.0.0',
+51 silly install resolved        'bs-rewrite-rules': '1.0.0',
+51 silly install resolved        'bs-snippet-injector': '2.0.1',
+51 silly install resolved        chai: '3.5.0',
+51 silly install resolved        chalk: '1.1.3',
+51 silly install resolved        compression: '1.6.2',
+51 silly install resolved        eslint: '3.4.0',
+51 silly install resolved        'graceful-fs': '4.1.6',
+51 silly install resolved        gulp: '3.9.1',
+51 silly install resolved        'gulp-contribs': '0.0.3',
+51 silly install resolved        'gulp-conventional-changelog': '1.1.0',
+51 silly install resolved        'gulp-filter': '4.0.0',
+51 silly install resolved        istanbul: '0.4.5',
+51 silly install resolved        'istanbul-coveralls': '1.0.3',
+51 silly install resolved        'lodash-cli': '4.15.0',
+51 silly install resolved        mocha: '3.0.2',
+51 silly install resolved        q: '1.4.1',
+51 silly install resolved        request: '2.74.0',
+51 silly install resolved        rimraf: '2.5.4',
+51 silly install resolved        sinon: '1.17.5',
+51 silly install resolved        'socket.io-client': '1.4.8',
+51 silly install resolved        supertest: '2.0.0',
+51 silly install resolved        vinyl: '1.2.0' },
+51 silly install resolved     keywords: [ 'browser sync', 'css', 'live reload', 'sync' ],
+51 silly install resolved     gitHead: 'f147b93b1f0ed6a94504a3f60cafbbe339d84267',
+51 silly install resolved     bugs: { url: 'https://github.com/browsersync/browser-sync/issues' },
+51 silly install resolved     _id: 'browser-sync@2.16.0',
+51 silly install resolved     _shasum: '973e129a5e02cbfdf4cb6bf8bf90b10d8abd34e5',
+51 silly install resolved     _from: 'browser-sync@latest',
+51 silly install resolved     _npmVersion: '2.15.5',
+51 silly install resolved     _nodeVersion: '4.4.5',
+51 silly install resolved     _npmUser: { name: 'shakyshane', email: 'shakyshane@gmail.com' },
+51 silly install resolved     dist:
+51 silly install resolved      { shasum: '973e129a5e02cbfdf4cb6bf8bf90b10d8abd34e5',
+51 silly install resolved        tarball: 'https://registry.npmjs.org/browser-sync/-/browser-sync-2.16.0.tgz' },
+51 silly install resolved     maintainers: [ [Object] ],
+51 silly install resolved     _npmOperationalInternal:
+51 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+51 silly install resolved        tmp: 'tmp/browser-sync-2.16.0.tgz_1473884816220_0.19066864321939647' },
+51 silly install resolved     directories: {},
+51 silly install resolved     _resolved: 'https://registry.npmjs.org/browser-sync/-/browser-sync-2.16.0.tgz' } ]
+52 info install browser-sync@2.16.0 into /usr/local/lib
+53 info installOne browser-sync@2.16.0
+54 verbose installOne of browser-sync to /usr/local/lib not in flight; installing
+55 verbose correctMkdir /Users/nancyavainikolo/.npm/_locks correctMkdir not in flight; initializing
+56 verbose lock using /Users/nancyavainikolo/.npm/_locks/browser-sync-ed941186c435fb34.lock for /usr/local/lib/node_modules/browser-sync
+57 silly install write writing browser-sync 2.16.0 to /usr/local/lib/node_modules/browser-sync
+58 verbose unbuild lib/node_modules/browser-sync
+59 info preuninstall browser-sync@2.14.3
+60 info uninstall browser-sync@2.14.3
+61 verbose unbuild rmStuff browser-sync@2.14.3 from /usr/local/lib/node_modules
+62 silly gentlyRm /usr/local/bin/browser-sync is being gently removed
+63 silly gentlyRm verifying /usr/local is an npm working directory
+64 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+65 silly gentlyRm deletion target /usr/local/bin/browser-sync is under /usr/local
+66 verbose gentlyRm vacuuming from /usr/local/bin/browser-sync up to /usr/local
+67 silly vacuum-fs removing /usr/local/bin/browser-sync
+68 silly vacuum-fs quitting because other entries in /usr/local/bin
+69 info postuninstall browser-sync@2.14.3
+70 silly gentlyRm /usr/local/lib/node_modules/browser-sync is being purged from base /usr/local
+71 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/browser-sync
+72 silly vacuum-fs purging /usr/local/lib/node_modules/browser-sync
+73 verbose unlock done using /Users/nancyavainikolo/.npm/_locks/browser-sync-ed941186c435fb34.lock for /usr/local/lib/node_modules/browser-sync
+74 verbose stack Error: EACCES: permission denied, rmdir '/usr/local/lib/node_modules/browser-sync'
+74 verbose stack     at Error (native)
+75 verbose cwd /Users/nancyavainikolo/Desktop/vainikolo_n
+76 error Darwin 15.6.0
+77 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "browser-sync"
+78 error node v4.5.0
+79 error npm  v2.15.9
+80 error path /usr/local/lib/node_modules/browser-sync
+81 error code EACCES
+82 error errno -13
+83 error syscall rmdir
+84 error Error: EACCES: permission denied, rmdir '/usr/local/lib/node_modules/browser-sync'
+84 error     at Error (native)
+84 error  { [Error: EACCES: permission denied, rmdir '/usr/local/lib/node_modules/browser-sync']
+84 error   errno: -13,
+84 error   code: 'EACCES',
+84 error   syscall: 'rmdir',
+84 error   path: '/usr/local/lib/node_modules/browser-sync' }
+85 error Please try running this command again as root/Administrator.
+86 verbose exit [ -13, true ]
+87 verbose unbuild lib/node_modules/browser-sync
+88 info preuninstall browser-sync@2.14.3
+89 info uninstall browser-sync@2.14.3
+90 verbose unbuild rmStuff browser-sync@2.14.3 from /usr/local/lib/node_modules
+91 silly gentlyRm /usr/local/bin/browser-sync is being gently removed
+92 silly gentlyRm verifying /usr/local is an npm working directory
+93 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+94 silly gentlyRm deletion target /usr/local/bin/browser-sync is under /usr/local
+95 verbose gentlyRm vacuuming from /usr/local/bin/browser-sync up to /usr/local
+96 info postuninstall browser-sync@2.14.3
+97 silly gentlyRm /usr/local/lib/node_modules/browser-sync is being purged from base /usr/local
+98 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/browser-sync
+99 silly vacuum-fs purging /usr/local/lib/node_modules/browser-sync
+100 error error rolling back Error: EACCES: permission denied, rmdir '/usr/local/lib/node_modules/browser-sync'
+100 error error rolling back     at Error (native)
+100 error error rolling back  { [Error: EACCES: permission denied, rmdir '/usr/local/lib/node_modules/browser-sync']
+100 error error rolling back   errno: -13,
+100 error error rolling back   code: 'EACCES',
+100 error error rolling back   syscall: 'rmdir',
+100 error error rolling back   path: '/usr/local/lib/node_modules/browser-sync' }

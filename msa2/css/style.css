@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: whitesmoke;
 }
 #header{
     width: 100%;
@@ -10,7 +11,7 @@ body{
 
 #slogan{
      width: 100%;
-    text-align: right;
+    text-align: center;
 }
 
 h1{
@@ -21,13 +22,14 @@ h1{
     margin-bottom: 0.2em;
 }
 
-h1 span{
-    display: inline;
-}
 
 h2{
     color: sandybrown;
     font-family: fantasy;
     font-size: 14px;
     margin-top: 0.1em;
+}
+
+h3{
+    text-align: center;
 }
